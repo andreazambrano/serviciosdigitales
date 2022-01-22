@@ -99,6 +99,11 @@ h6 {
     font-weight: 700;
     margin: 0;
 }
+h1 {
+    color: cornflowerblue;
+    font-weight: 700;
+    margin: 0;
+}
 
 
 .noSelect {
@@ -2439,7 +2444,7 @@ ul {
 .main-slider-one .swiper-slide-active .main-slider__content-title {
     opacity: 1;
     transform: translateX(0);
-    transition-delay: 1500ms;
+    transition-delay: 1200ms;
 }
 
 .main-slider__content-text {
