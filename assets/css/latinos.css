@@ -21,7 +21,7 @@
 :root {
     --thm-font: 'Kumbh Sans', sans-serif;
     --thm-reey-font: 'reeyregular';
-    --thm-base: #4d5fe3;
+    --thm-base: #2800DD;
     --thm-base-rgb: 77, 95, 227;
     --thm-primary: #ffd45f;
     --thm-primary-rgb: 255, 212, 95;
@@ -340,7 +340,7 @@ ul {
 .section-title__tagline {
     position: relative;
     display: inline-block;
-    color: var(--thm-base);
+    color: #EA0086;
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
@@ -348,10 +348,10 @@ ul {
 }
 
 .section-title__title {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 1.2em;
     font-weight: 700;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
 }
 
 
