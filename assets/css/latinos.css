@@ -289,10 +289,10 @@ ul {
     outline: none !important;
     background-color: var(--thm-base);
     color: #ffffff;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 16px 50px 12px;
+    padding: 5px 25px 5px;
     border-radius: 8px;
     transition: all 0.3s linear;
     overflow: hidden;
@@ -533,7 +533,7 @@ ul {
 .main-header--one {
     position: relative;
     left: 0px;
-    top: 0px;
+    top: 5px;
     width: 100%;
     z-index: 999;
     transition: all 500ms ease;
@@ -750,7 +750,7 @@ ul {
 .main-menu__right-login-register {
     position: relative;
     display: block;
-    margin-right: 26px;
+    margin-right: 5px;
 }
 
 .main-menu__right-login-register ul {
@@ -790,10 +790,10 @@ ul {
 }
 
 .main-menu__right-login-register ul li a {
-    color: var(--thm-gray);
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
     transition: all 200ms linear;
     transition-delay: 0.1s;
 }
@@ -807,7 +807,7 @@ ul {
     position: relative;
     display: flex;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 5px;
 }
 
 .main-menu__right-cart-search::before {
@@ -848,7 +848,7 @@ ul {
 
 .main-menu__right-search-box .thm-btn {
     font-size: 12px;
-    padding: 5px 30px 2px;
+    padding: 5px 25px 5px;
 }
 
 
@@ -881,7 +881,7 @@ ul {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 15px
+    padding: 5px 15px
 }
 
 .mobile-nav__buttons {
