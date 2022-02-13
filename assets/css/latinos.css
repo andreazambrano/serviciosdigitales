@@ -23,7 +23,7 @@
     --thm-reey-font: 'reeyregular';
     --thm-base: #2800DD;
     --thm-base-rgb: 77, 95, 227;
-    --thm-primary: #ffd45f;
+    --thm-primary: #EA0086;
     --thm-primary-rgb: 255, 212, 95;
     --thm-gray: #757783;
     --thm-gray-rgb: 117, 119, 131;
@@ -1863,7 +1863,8 @@ ul {
 =============================================
 ***/
 .main-header--two {
-    position: absolute;
+    position: fixed;
+    background-color: #ffff;
     left: 0px;
     top: 0px;
     width: 100%;
@@ -2046,7 +2047,7 @@ ul {
     position: relative;
     display: block;
     background: transparent;
-    padding: 12px 0px 13px;
+    padding: 2px 0px 15px;
 }
 
 .main-header-two__bottom::before {
@@ -4492,7 +4493,7 @@ ul {
 .footer-one__top {
     position: relative;
     display: block;
-    padding: 114px 0px 108px;
+    padding: 50px 0px;
     border-bottom: 1px solid #303138;
 }
 
@@ -5080,7 +5081,7 @@ ul {
 .video-one__box {
     position: relative;
     display: flex;
-    min-height: 520px;
+    min-height: 800px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -5515,6 +5516,7 @@ ul {
     background: var(--thm-base);
     overflow: hidden;
     z-index: 1;
+    height: 345px;
 }
 
 .registration-two__wrapper {
