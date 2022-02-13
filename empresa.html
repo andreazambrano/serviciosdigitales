@@ -115,37 +115,198 @@
     <!--End Contact Details One-->
 
     <!--Contact Page Start-->
-    <section class="contact-page" style="padding: 120px 0px 200px;">
+    
+    <section [hidden]="!steeps[2].steep"class="contact-page" style="padding: 90px 0px 200px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4">
+                        <div class="contact-page__left">
+                            <div class="section-title">
+                                <span class="section-title__tagline">Crear empresa</span>
+                                <h2 class="section-title__title">Registro y registro <br>de su LLC.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="section-title">
+                                
+                                <h2 class="section-title__title">Sobre su empresa LLC</h2>
+                            </div>
+                        <div class="contact-page__right">
+                            <form action="" class="comment-one__form contact-form-validated" novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12">
+                                        <div class="comment-form__input-box">
+                                            <p>Nombre de la empresa</p>
+                                            <input type="text" placeholder="Nombre de la empresa" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="comment-form__input-box">
+                                            <p>Tipo de empresa</p>
+                                            <input type="email" placeholder="LLC" name="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="comment-form__input-box">
+                                            <p>Industria</p>
+                                            <input type="text" placeholder="Agronomia" name="phone">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12">
+                                        <div class="comment-form__input-box">
+                                            <textarea name="message" placeholder="Descripcion de la empresa"></textarea>
+                                        </div>
+                                        <button  class="thm-btn comment-form__btn" (click)="back(2)"> Atras</button>
+                                        <button  class="thm-btn comment-form__btn"><a (click)="next(2)">Siguiente</a></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <section [hidden]="!steeps[3].steep" class="contact-page" style="padding: 90px 0px 200px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-lg-4">
                     <div class="contact-page__left">
                         <div class="section-title">
-                            <span class="section-title__tagline">Send a Message</span>
-                            <h2 class="section-title__title">We Always <br>Ready to Hear <br>From You</h2>
+                            <span class="section-title__tagline">Crear empresa</span>
+                            <h2 class="section-title__title">Registro y creación <br>de su empresa.</h2>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-8 col-lg-8">
+                    <div class="section-title">
+                            
+                            <h2 class="section-title__title">Encargados de la empresa <br> Socios</h2>
+                        </div>
+                    <div class="contact-page__right">
+                        <form action="" class="comment-one__form contact-form-validated" novalidate="novalidate">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12">
+                                    <div class="comment-form__input-box">
+                                        <p>Nombre completo</p>
+                                        <input type="text" placeholder="Nombre y apellido  " name="name">
+                                    </div>
+                                </div>
+                                <div class="col-xl-10 col-lg-10">
+                                    
+                                    <div class="comment-form__input-box">
+                                        <p>Dirección</p>
+                                        <input type="text"  placeholder="*Direccion" name="text">
+                                    </div>                                
+                                </div>
+                                <div class="col-xl-2 col-lg-2">
+                                    
+                                    <div class="comment-form__input-box">
+                                    <input type="checkbox" name="">Utilizar la nuestra.
+                                    </div>   
+                                </div>
+                                <div class="col-xl-10 col-lg-10">
+                                        <div class="comment-form__input-box">
+                                            <p>Dirección física de la empresa</p>
+                                            <input type="text"  placeholder="*Direccion" name="text">
+                                        </div> 
+                                    </div> 
+                                    <div class="col-xl-2 col-lg-2">
+                                    
+                                        <div class="comment-form__input-box">
+                                        <input type="checkbox" name=""> Utilizar la nuestra.
+                                        </div>   
+                                    </div>
+                                    <div class="col-xl-10 col-lg-10">
+                                        <div class="comment-form__input-box">
+                                            <p>Dirección recepción de documento de su empresa </p>
+                                            <input type="text"  placeholder="*Direccion" name="text">
+                                        </div> 
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2">
+                                    
+                                         <input type="checkbox" name="">Utilice la nuestra.  
+                                    </div>
+                                
+                               
+                                <div class="col-xl-12 col-lg-12">
+                                    
+                                    <div class="comment-form__input-box" style="color: #2800DD;">
+                                       <i class="fa fa-plus"></i> <a style="color: #2800DD;" >Añadir más socios</a>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12" style="padding-top: 10px;">
+                                        
+                                        <button  class="thm-btn comment-form__btn" >Atras</button>
+                                        <button  class="thm-btn comment-form__btn"><a >Siguiente</a> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section [hidden]="!steeps[4].steep" class="contact-page" style="padding: 90px 0px 200px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="contact-page__left">
+                        <div class="section-title">
+                            <span class="section-title__tagline">Crear empresa</span>
+                            <h2 class="section-title__title">Registro y creación <br>de su empresa.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                    <div class="section-title">
+                            
+                            <h2 class="section-title__title">Persona responsable </h2>
+                            <p>Esta es la persona responsable que se muestra en el número de identificación fiscal, cuenta bancaria y otros documentos.</p>
+                        </div>
                     <div class="contact-page__right">
                         <form action="" class="comment-one__form contact-form-validated" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="comment-form__input-box">
-                                        <input type="text" placeholder=" Número celular" name="phone">
+                                        <p>Nombre completo</p>
+                                        <input type="text" placeholder="Nombre y apellido  " name="name">
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
+                                    
                                     <div class="comment-form__input-box">
-                                        <input type="email" placeholder="correo electrónico" name="email">
-                                    </div>
+                                        <p>Email</p>
+                                        <input type="email"  placeholder="*Email" name="text">
+                                    </div>                                
+                                </div>
+                                <div class="col-xl-6 col-lg-6">
+                                        <div class="comment-form__input-box">
+                                            <p>Telefono</p>
+                                            <input type="text"  placeholder="*Telefono" name="text">
+                                        </div> 
                                 </div>
                             </div>
-                           
+                            <div class="col-xl-12 col-lg-12">
+                                <div class="comment-form__input-box">
+                                   <p>¿Cuenta con ITIN?</p>
+                                   <input type="checkbox" name="">Si
+                                   <input type="checkbox" name="">No
+                                </div>
+                            </div>
+                                
+
                             <div class="row">
-                                <div class="col-xl-12 col-lg-12">
+                                <div class="col-xl-12 col-lg-12" style="padding-top: 10px;">
                                     
-                                    <button type="submit" class="thm-btn comment-form__btn"><a href="tipoempresa.html">Ingresar</a> </button>
+                                    <button  class="thm-btn comment-form__btn">Atras</button>
+                                    <button  class="thm-btn comment-form__btn"><a >Terminar</a> </button>
                                 </div>
                             </div>
                         </form>
@@ -158,8 +319,7 @@
 
     <!--Start Footer One-->
    <footer class="footer-one">
-           <!--  <div class="footer-one__bg" style="background-image: url(assets/images/backgrounds/footer-v1-bg.jpg);">
-            </div> --><!-- /.footer-one__bg -->
+        
             <div class="footer-one__top">
                 <div class="container">
                     <div class="row">
@@ -174,23 +334,14 @@
                         </div>
                         
 
-                       <!--  <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.3s">
-                            <div class="footer-widget__column footer-widget__courses">
-                                <h3 class="footer-widget__title">SAVVY LATINOS</h3>
-                               
-                            </div>
-                        </div> -->
-                        
+                     
 
                         <div class="col-xl-3 col-lg-3 col-md-3 wow animated fadeInUp" data-wow-delay="0.5s">
                             <div class="footer-widget__column footer-widget__links">
                                 <h3 class="footer-widget__title">Email</h3> 
                                 <ul class="footer-widget__links-list list-unstyled">
                                     <li><a href="#">info@savvylatinos</a></li>
-                                    <!-- <li><a href="index.html#">Overview</a></li>
-                                    <li><a href="#">servicios</a></li>
-                                    <li><a href="index.html#">Join Us</a></li>
-                                    <li><a href="news.html">Our News</a></li> -->
+                                   
                                 </ul>
                             </div>
                         </div>
